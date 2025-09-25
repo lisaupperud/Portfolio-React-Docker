@@ -1,0 +1,27 @@
+.navbar {
+  width: 100vw;
+  height: 150px;
+  background: linear-gradient(to bottom, aqua 80%, rgb(214, 211, 255) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img {
+  height: 100px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
