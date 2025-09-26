@@ -1,0 +1,98 @@
+.card {
+  margin: 20px 20px;
+  background-color: rgb(145, 137, 251);
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  min-height: 320px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px;
+  padding-bottom: 35px;
+}
+
+.card-left img {
+  width: 200px;
+  height: auto;
+}
+
+.skills-title {
+  font-weight: bold;
+  margin: 16px 0 8px 0;
+  text-align: center;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 30px;
+  margin-bottom: 20px;
+}
+
+.github-links {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.github-links a {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(100, 92, 206);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.project-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+
+.project-name {
+  color: #222;
+  font-size: 16px;
+  text-align: center;
+}
+
+.multi-images {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.multi-images img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 12px;
+}
