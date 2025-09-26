@@ -1,7 +1,7 @@
 .navbar {
   width: 100vw;
   height: 150px;
-  background: linear-gradient(to bottom, aqua 80%, rgb(214, 211, 255) 100%);
+  background: linear-gradient(90deg, #384e90 70%, #6ca0dc 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,6 +10,7 @@
 .navbar img {
   height: 100px;
   margin-left: 20px;
+  margin-top: 15px;
   border-radius: 50%;
 }
 
@@ -21,7 +22,7 @@
 
 .links a {
   text-decoration: none;
-  color: black;
+  color: #22356f;
   font-weight: bold;
   font-size: 18px;
 }

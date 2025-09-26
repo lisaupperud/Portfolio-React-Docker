@@ -1,17 +1,49 @@
 .homepage {
-  min-height: calc(100vh - 150px); /* 150px is the navbar height */
+  min-height: calc(100vh - 150px);
   width: 100vw;
-  background-color: rgb(214, 211, 255);
+  background-color: #f7f8fa;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 0; /* Remove any default margin */
-  padding-top: 20px; /* Add a small space below the navbar */
+  margin-top: 0;
+  padding-top: 20px;
 }
 
 .slideshow {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.slideshow button {
+  background-color: #384e90; /* matcha din accentfärg */
+  color: white;
+  border: none;
+  border-radius: 50%; /* gör dem runda */
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.slideshow button:hover {
+  background-color: #304586;
+  transform: scale(1.1);
+}
+
+.slideshow button:active {
+  transform: scale(0.95);
+}
+
+.slideshow button img {
+  width: 40px;
+  height: 40px;
 }

@@ -16,18 +16,20 @@ import portfolio from "./assets/portfolio.svg"
 import computer from "./assets/computer.svg"
 import database from "./assets/database.svg"
 import sql from "./assets/sql.svg"
+import next from "./assets/next.svg"
+import prev from "./assets/prev.svg"
 
 const cards = [
   {
     title: "About Me",
-    text: `I'm Lisa, a 25 year old developer in training from Stockholm, Sweden. My passion for coding was sparked when my brother, who is also a developer, 
-    showed me an online library he had built. I was imideiately intrigued, and decided to pursue a career in tech. I went on to read a course in C# in the beginning of 2024 and then applied to Stockholms Techincal Institute, where I have been studying since september of 2024.
-    Seeing as I'm a person who likes structure and rules, code made sense to me. Like with building blocks, one after another each line makes it go from nothing to something and I find that immensely satifying. 
-    I've worked several years in the bar industry, which has been great to develope my social skills and ability to adapt to quickly changing situations. However, I felt that I needed a new challenge and wanted to work with something that truly challenged me intellectually.
-    Aside from challeging my mind with coding, I like to challenge my body in the gym or in nature. I have a long history of dancing, strength training and hiking. I also spend my teenage years in 'Försvarsutbildarna', an organization for youth in Sweden to take part in military training.
-    Wether it's hitting PR's in the gym, walking that extra mile on a hike or finally solving that annoying bug, I thrive with challenges and see them as the best way to learn and grow.`,
+    text: `I'm Lisa, a 25-year-old developer in training from Stockholm, Sweden. My passion for coding was sparked when my brother, who is also a developer,
+    showed me an online library he had built. I was immediately intrigued and decided to pursue a career in tech. I went on to take a course in C# in the beginning of 2024 and then applied to Stockholms Technical Institute, where I have been studying since September 2024.
+    Seeing as I'm a person who likes structure and rules, code made sense to me. Like building blocks, one after another, each line turns nothing into something — and I find that immensely satisfying.
+    I've worked several years in the bar industry, which has been great for developing my social skills and ability to adapt to quickly changing situations. However, I felt that I needed a new challenge and wanted to work with something that truly challenged me intellectually.
+    Aside from challenging my mind with coding, I like to challenge my body in the gym or in nature. I have a long history of dancing, strength training, and hiking. I also spent my teenage years in Försvarsutbildarna, an organization for youth in Sweden to take part in military training.
+    Whether it's hitting PRs in the gym, walking that extra mile on a hike, or finally solving that annoying bug, I thrive on challenges and see them as the best way to learn and grow.`,
     image: lisaupperud2,
-    skills: ["Positive", "Fun", "Comminicative", "Curious"],
+    skills: ["Positive", "Comminicative", "Curious", "Adaptable", "Structured"],
   },
   {
     title: "Object Oriented Programming",
@@ -168,9 +170,13 @@ function App() {
       <Navbar />
       <div className="homepage">
         <div className="slideshow">
-          <button onClick={prevCard}>←</button>
+          <button onClick={prevCard}>
+            <img src={prev} alt="Prevoius" />
+          </button>
           <Card {...cards[index]} />
-          <button onClick={nextCard}>→</button>
+          <button onClick={nextCard}>
+            <img src={next} alt="Next" />
+          </button>
         </div>
       </div>
     </>
