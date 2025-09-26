@@ -22,7 +22,6 @@ import git from "./assets/github.svg"
 import linkedin from "./assets/linkedin.png"
 import cv from "./assets/cv.svg"
 
-
 const cards = [
   {
     title: "About Me",
@@ -61,17 +60,17 @@ const cards = [
     projects: [
       {
         name: "Dice Game",
-        link: "https://github.com/yourusername/awesome-app",
+        link: "https://github.com/lisaupperud/java-a-projektarbete.git",
         icon: dice,
       },
       {
         name: "Adventure Game",
-        link: "https://github.com/yourusername/cool-library",
+        link: "https://github.com/lisaupperud/java-b-projektarbete.git",
         icon: adventure,
       },
       {
         name: "Go Fish!",
-        link: "https://github.com/yourusername/cool-library",
+        link: "https://github.com/lisaupperud/CardGame.git",
         icon: hand,
       },
     ],
@@ -93,7 +92,7 @@ const cards = [
       },
       {
         name: "To-Do App",
-        link: "https://github.com/yourusername/cool-library",
+        link: "https://github.com/lisaupperud/ToDo_Webservice.git",
         icon: web,
       },
     ],
@@ -109,18 +108,18 @@ const cards = [
     image: flask,
     projects: [
       {
-        name: "Dice Game",
+        name: "Dice Game - Console Game",
         link: "https://github.com/yourusername/awesome-app",
         icon: dice,
       },
       {
-        name: "Adventure Game",
+        name: "Adventure Game - Console Game",
         link: "https://github.com/yourusername/cool-library",
         icon: adventure,
       },
       {
-        name: "Go Fish!",
-        link: "https://github.com/yourusername/cool-library",
+        name: "Go Fish! - Console Game",
+        link: "https://github.com/lisaupperud/CardGame.git",
         icon: hand,
       },
     ],
@@ -135,17 +134,17 @@ const cards = [
     projects: [
       {
         name: "Portfolio Website",
-        link: "https://github.com/yourusername/awesome-app",
+        link: "https://lisaupperud.github.io/myWebsite/",
         icon: portfolio,
       },
       {
         name: "Starka År - Fitness App",
-        link: "https://github.com/yourusername/cool-library",
+        link: "https://fitness-app-teal-sigma.vercel.app/",
         icon: fitness,
       },
       {
         name: "Spring Security",
-        link: "https://github.com/yourusername/cool-library",
+        link: "https://github.com/nanawally/lisaanna.git",
         icon: security,
       },
     ],
@@ -160,17 +159,17 @@ const cards = [
     projects: [
       {
         name: "Relational Database ",
-        link: "https://github.com/yourusername/awesome-app",
+        link: "https://github.com/lisaupperud/databas-projektarbete.git",
         icon: sql,
       },
       {
         name: "Spring Security with SQL",
-        link: "https://github.com/yourusername/cool-library",
+        link: "https://github.com/nanawally/lisaanna.git",
         icon: security,
       },
       {
         name: "To-Do App with NoSQL",
-        link: "https://github.com/yourusername/cool-library",
+        link: "https://github.com/lisaupperud/ToDo_Webservice.git",
         icon: web,
       },
     ],
