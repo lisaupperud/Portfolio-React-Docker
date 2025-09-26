@@ -18,18 +18,38 @@ import database from "./assets/database.svg"
 import sql from "./assets/sql.svg"
 import next from "./assets/next.svg"
 import prev from "./assets/prev.svg"
+import git from "./assets/github.svg"
+import linkedin from "./assets/linkedin.png"
+import cv from "./assets/cv.svg"
+
 
 const cards = [
   {
     title: "About Me",
-    text: `I'm Lisa, a 25-year-old developer in training from Stockholm, Sweden. My passion for coding was sparked when my brother, who is also a developer,
-    showed me an online library he had built. I was immediately intrigued and decided to pursue a career in tech. I went on to take a course in C# in the beginning of 2024 and then applied to Stockholms Technical Institute, where I have been studying since September 2024.
-    Seeing as I'm a person who likes structure and rules, code made sense to me. Like building blocks, one after another, each line turns nothing into something — and I find that immensely satisfying.
+    text: `I'm Lisa, a 25-year-old developer in training from Stockholm, Sweden. My passion for coding was sparked when my brother showed me an online library he had built. I was immediately intrigued and decided to pursue a career in tech. I went on to take a course in C# in the beginning of 2024 and then applied to Stockholms Technical Institute, where I have been studying since September 2024.
+    Seeing as I'm a person who likes structure and rules, code made sense to me. 
     I've worked several years in the bar industry, which has been great for developing my social skills and ability to adapt to quickly changing situations. However, I felt that I needed a new challenge and wanted to work with something that truly challenged me intellectually.
-    Aside from challenging my mind with coding, I like to challenge my body in the gym or in nature. I have a long history of dancing, strength training, and hiking. I also spent my teenage years in Försvarsutbildarna, an organization for youth in Sweden to take part in military training.
+    Aside from challenging my mind with coding, I like to challenge my body in the gym or in nature. I spent my teenage years in Försvarsutbildarna, an organization for youth in Sweden to take part in military training.
     Whether it's hitting PRs in the gym, walking that extra mile on a hike, or finally solving that annoying bug, I thrive on challenges and see them as the best way to learn and grow.`,
     image: lisaupperud2,
     skills: ["Positive", "Comminicative", "Curious", "Adaptable", "Structured"],
+    projects: [
+      {
+        name: "GitHub",
+        link: "https://github.com/lisaupperud",
+        icon: git,
+      },
+      {
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/lisaupperud/",
+        icon: linkedin,
+      },
+      {
+        name: "CV",
+        link: "/cv.pdf",
+        icon: cv,
+      },
+    ],
   },
   {
     title: "Object Oriented Programming",

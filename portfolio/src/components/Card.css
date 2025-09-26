@@ -24,6 +24,7 @@
 
 .skills-title {
   font-weight: bold;
+  font-size: 20px;
   margin: 16px 0 8px 0;
   text-align: center;
   color: #384e90;
@@ -42,6 +43,12 @@
   justify-content: flex-start;
   margin: 0 30px;
   margin-bottom: 20px;
+}
+
+.card-right h2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #22356f;
 }
 
 .github-links {
