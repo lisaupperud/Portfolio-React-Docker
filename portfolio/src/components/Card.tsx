@@ -19,7 +19,6 @@ function Card({ title, text, image, images, projects, skills }: CardProps) {
   return (
     <div className="card">
       <div className="card-left">
-        {/* Show multiple images if present, else single image */}
         {images && images.length > 0 ? (
           <div className="multi-images">
             {images.map((img, idx) => (
@@ -42,7 +41,6 @@ function Card({ title, text, image, images, projects, skills }: CardProps) {
       </div>
       <div className="card-right">
         <h2>{title}</h2>
-        {/* Show text if present */}
         {text && (
           <p>
             {text.split("\n").map((line, idx) => (
@@ -53,7 +51,6 @@ function Card({ title, text, image, images, projects, skills }: CardProps) {
             ))}
           </p>
         )}
-        {/* Show projects if present */}
         {projects && projects.length > 0 && (
           <div className="projects-list">
             {projects.map((project) => (
